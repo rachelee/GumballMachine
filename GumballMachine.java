@@ -49,8 +49,13 @@ public class GumballMachine implements IGumballMachine {
     }
     
     public void takeGumballFromSlot( ){
-        System.out.println("Got " + inSlotCount + " gumball from the slot.");
+        if (inSlotCount == 0)
+        System.out.println("No gumball in the slot!");
+        else
+        {
+            System.out.println("Got " + inSlotCount + " gumball from the slot.");
         inSlotCount = 0;
+        }
     }
     
     public void eject() {
@@ -99,6 +104,7 @@ public class GumballMachine implements IGumballMachine {
  
     void refill(int count) {
         this.count = count;
+        System.out.println("Machine refilled. Now there are " + count + " gumballs.");
         state = notEnoughMoneyState;
     }
 
