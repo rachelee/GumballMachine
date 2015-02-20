@@ -114,7 +114,6 @@ public class GumballMachineTest
         m2.insertQuarter();
         m2.takeGumballFromSlot();
         m2.refill(5);
-        m2.toString();
     }
 
     @Test

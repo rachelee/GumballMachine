@@ -7,4 +7,6 @@ comment2.params=
 comment2.target=void\ turnCrank()
 comment3.params=
 comment3.target=void\ dispense()
-numComments=4
+comment4.params=count
+comment4.target=void\ refill(int)
+numComments=5

@@ -31,4 +31,8 @@ public class HasEnoughMoneyState implements State {
     public String toString() {
         return "waiting for turn of crank";
     }
+    
+    public void refill(int count){
+        System.out.println("Gumball machine still has gumballs, no needs to refill");
+    }
 }

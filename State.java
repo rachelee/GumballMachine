@@ -6,4 +6,5 @@ public interface State {
 	public boolean eject();
 	public void turnCrank();
 	public void dispense();
+	public void refill(int count);
 }

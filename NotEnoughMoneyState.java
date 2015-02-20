@@ -35,4 +35,8 @@ public class NotEnoughMoneyState implements State {
     public String toString() {
         return "waiting for 50 cents";
     }
+    
+    public void refill(int count){
+        System.out.println("Gumball machine still has gumballs, no needs to refill");
+    }
 }

@@ -25,6 +25,7 @@ public class GumballMachine implements IGumballMachine {
         else
         {
             state = soldOutState; // added by xiaoxiao li
+            count = 0;
         }
     }
  
@@ -103,11 +104,12 @@ public class GumballMachine implements IGumballMachine {
     }
  
     void refill(int count) {
-        this.count = count;
-        System.out.println("Machine refilled. Now there are " + count + " gumballs.");
-        state = notEnoughMoneyState;
+        state.refill(count);
     }
-
+    
+    void setCount(int count){
+        this.count = this.count + count;
+    }    
     public State getState() {
         return state;
     }

@@ -34,6 +34,10 @@ public class SoldState implements State {
 	public String toString() {
 		return "dispensing a gumball";
 	}
+	
+	public void refill(int count){
+        System.out.println("Gumball machine still has gumballs, no needs to refill");
+    }
 }
 
 
