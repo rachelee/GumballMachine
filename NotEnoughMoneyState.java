@@ -8,6 +8,12 @@ public class NotEnoughMoneyState implements State {
     }
  
     public void insertMoney(int cents) {
+        if(cents == 25)
+            System.out.println("You inserted a quarter!");
+        else if(cents == 10)
+            System.out.println("You inserted a dime!");
+        else if (cents == 1)
+            System.out.println("You inserted a nickel!");
         gumballMachine.setMoney(cents);
         if (gumballMachine.getMoney() >= 50)
             gumballMachine.setState(gumballMachine.getHasEnoughMoneyState());

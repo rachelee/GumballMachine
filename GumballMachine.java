@@ -10,6 +10,7 @@ public class GumballMachine implements IGumballMachine {
     State state = soldOutState;
     int count = 0;
     int money = 0;
+    int inSlotCount = 0;
  
     public GumballMachine(int numberGumballs) {
         soldOutState = new SoldOutState(this);
@@ -41,10 +42,15 @@ public class GumballMachine implements IGumballMachine {
     }
     
     public boolean isGumballInSlot( ){
-        return false;
+        if (inSlotCount > 0)
+            return true;
+        else
+            return false;
     }
     
     public void takeGumballFromSlot( ){
+        System.out.println("Got " + inSlotCount + " gumball from the slot.");
+        inSlotCount = 0;
     }
     
     public void eject() {
@@ -59,7 +65,7 @@ public class GumballMachine implements IGumballMachine {
         state.turnCrank();
         state.dispense();
     }
-
+    
     void setState(State state) {
         this.state = state;
     }
@@ -73,6 +79,7 @@ public class GumballMachine implements IGumballMachine {
         System.out.println("A gumball comes rolling out the slot..." + money + " cents returned!");
         if (count != 0) {
             count = count - 1;
+            inSlotCount++;
         }
         money = 0;
         
