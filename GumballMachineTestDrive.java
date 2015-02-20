@@ -1,5 +1,10 @@
 
-
+/**
+ * Write a description of class GumballMachineTestDrive here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
 public class GumballMachineTestDrive {
 
     public static void main(String[] args) {
