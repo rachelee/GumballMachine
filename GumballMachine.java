@@ -8,9 +8,9 @@ public class GumballMachine implements IGumballMachine {
     State soldState;
  
     State state = soldOutState;
-    int count = 0;
-    int money = 0;
-    int inSlotCount = 0;
+    private int count = 0;
+    private int money = 0;
+    private int inSlotCount = 0;
  
     public GumballMachine(int numberGumballs) {
         soldOutState = new SoldOutState(this);

@@ -2,8 +2,8 @@
 /**
  * Write a description of class GumballMachineTestDrive here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @XiaoxiaoLi 
+ * @2/20/2015
  */
 public class GumballMachineTestDrive {
 

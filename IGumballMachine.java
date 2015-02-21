@@ -2,8 +2,8 @@
 /**
  * Write a description of interface IGumballMachine here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Xiaoxiao Li 
+ * @2/20/2015
  */
 public interface IGumballMachine
 {

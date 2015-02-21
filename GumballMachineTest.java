@@ -8,17 +8,12 @@ import org.junit.Test;
 /**
  * The test class GumballMachineTest.
  *
- * @author  (your name)
- * @version (a version number or a date)
+ * @Xiaoxiao Li
+ * @2/20/2015
  */
 public class GumballMachineTest
 {
     private GumballMachine m2;
-
-    
-
-
-    
 
     /**
      * Default constructor for test class GumballMachineTest
