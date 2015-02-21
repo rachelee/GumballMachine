@@ -1,4 +1,9 @@
-
+/**
+ * Implements the IGumballMachine interface
+ * 
+ * @Xiaoxiao Li 
+ * @2/20/2015
+ */
 
 public class GumballMachine implements IGumballMachine {
  

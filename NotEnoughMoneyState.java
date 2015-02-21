@@ -1,4 +1,11 @@
-
+/**
+ * Implements the IGumballMachine interface
+ * In this state gumball machine doesn't have enough money so no gumball can be
+ * released
+ * 
+ * @Xiaoxiao Li 
+ * @2/20/2015
+ */
 
 public class NotEnoughMoneyState implements State {
     GumballMachine gumballMachine;

@@ -1,4 +1,11 @@
-
+/**
+ * Implements the IGumballMachine interface
+ * In this class machine has enough money for a gumball 
+ * and the machine is set to SoldState
+ * 
+ * @Xiaoxiao Li 
+ * @2/20/2015
+ */
 
 import java.util.Random;
 

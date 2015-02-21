@@ -1,4 +1,9 @@
-
+/**
+ * Interface for the state
+ * 
+ * @Xiaoxiao Li 
+ * @2/20/2015
+ */
 
 public interface State {
  

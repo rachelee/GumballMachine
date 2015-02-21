@@ -1,4 +1,9 @@
-
+/**
+ * Implements the IGumballMachine interface
+ * In this class the gumball is released
+ * @Xiaoxiao Li 
+ * @2/20/2015
+ */
 
 public class SoldState implements State {
  

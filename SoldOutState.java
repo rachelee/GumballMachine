@@ -1,4 +1,11 @@
-
+/**
+ * Implements the State interface
+ * No gumball in the machine. 
+ * Machine can be refilled.
+ * 
+ * @Xiaoxiao Li 
+ * @2/20/2015
+ */
 
 public class SoldOutState implements State {
     GumballMachine gumballMachine;

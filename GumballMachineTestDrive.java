@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class GumballMachineTestDrive here.
+ * A simple test drive for GumballMachine
  * 
  * @XiaoxiaoLi 
  * @2/20/2015
